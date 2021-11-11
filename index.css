@@ -1,0 +1,146 @@
+
+/* Main Overall Styles */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 247, 252);
+}
+/* You can use a linear gradient 120deg */
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 200;
+    
+}
+
+h3 {
+    font-weight: 200;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+/* The navigation bar styles */
+.nav {
+    display:flex;
+    margin: right 20px;
+    font-size:0.9em;
+    justify-content: space-between;
+    background-color: rgb(196, 231, 247);
+    padding: 20px;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    position: sticky;
+     top:0;
+     z-index: 1030;
+    
+}
+
+
+
+.nav a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav a:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+/* Web styles */
+
+.eqIntro {
+    margin-left: 20px;
+}
+
+.information {
+    margin-left: 20px;
+    justify-content: space-between;
+    
+
+}
+
+.introduction {
+    padding: 15px;
+
+}
+
+.Formula {
+    margin-left: 50px;
+    margin-top: 0px;
+    justify-content: space-between;
+    display: flex;
+    line-height: 20px;
+    
+}
+
+.joiner1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.joiner2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.words3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.tryityourself {
+    margin-right: 150px;
+    margin-bottom: 0px;
+}
+
+.tiy {
+    margin-left: 340px;
+    line-height: 20px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cal {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.resultSpace {
+    padding: 20px;
+}
+
+
+/* Image Styles */
+
+.imageKepler-186f {
+    padding: 20px;
+
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.imageDrakeEquation {
+    text-align: center;
+
+}
