@@ -15,7 +15,7 @@ var Drake = function() {
     }   else{
         var result = R * 0.01 * fp * ne * fe * 0.01 * fi * 0.01 * fc * 0.01 * L
         
-        output.textContent = "Your Result is " + +result.toFixed(2); + " civillisations are out there";
+        output.textContent = "Your Result is " + Math.round((num + Number.EPSILON)result.toFixed; + " civillisations are out there";
     }
         
 };
