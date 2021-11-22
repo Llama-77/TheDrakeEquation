@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 247, 252);
+}
+/* Navigation bar styles */
+
+.nav {
+    margin: right 20px;
+    font-size:0.9em;
+    background-color: rgb(196, 231, 247);
+    padding: 20px;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    position: sticky;
+     top:0;
+     z-index: 1030;
+
+}
+.nav a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav a:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+/* Other styles */
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+p {
+    font-weight: 200;
+}
+
+.references {
+    border-left: 100px;
+    padding: 20px;
+}
+
+.references a:link {
+    color: blue;
+}
+
+.references a:visited {
+    color: blue;
+}
